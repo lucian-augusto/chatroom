@@ -1,0 +1,22 @@
+<%- include('partials/header')%>
+
+<!-- <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+<script defer src="chat.js"></script> -->
+<!-- socket.io Scripts -->
+<script defer src="/socket.io/socket.io.js"></script>
+
+<!-- linking client side scripts -->
+<script defer src="chat.js"></script>
+
+<!-- Message box Section -->
+<section>
+  <div id="chatBox" class="chatbox">
+
+  </div>
+  <form id="sendMessage" class="" action="index.html" method="post">
+    <input id="message" type="text" class="send-box" name="newMessage" value="">
+    <button type="submit" class="btn btn-outline-secondary" name="button">Send</button>
+  </form>
+</section>
+
+<%- include('partials/footer') %>

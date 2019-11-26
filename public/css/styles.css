@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.banner {
+  height: 15%;
+  min-height: 15%;
+  background-color: #888888;
+  margin: 5% auto;
+}
+
+.chatbox {
+  margin: 2% auto 5% auto;
+  border: 1.5px solid;
+  border-radius: .5rem;
+  text-align: left;
+  padding: 10px;
+}
+
+.copyright {
+  margin: 5%;
+}
+
+section {
+  max-width: 50%;
+  margin: auto;
+}
+
+.send-box {
+  border-radius: .5rem;
+}
